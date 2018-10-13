@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>gcs0h2p5ijr6</unique-id>
+    <saved-with-version>25600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="backgroung" sid="996542294061539">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\dell1\Desktop\imagens\backdoce.png" />
+        </object-type>
+        <object-type name="Particles" sid="842270809220804">
+            <plugin id="Particles" />
+            <texture original-source="C:\Users\dell1\Desktop\imagens\cloud.png" />
+        </object-type>
+        <object-type name="pontuacao" sid="993462456034403">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="donuts" sid="319427598676803">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="261123672631806">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="8" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="676076055756103" speed="0">
+                    <frame duration="1" hotspotX="0.505376" hotspotY="0.51087" original-source="C:\Users\dell1\Desktop\imagens\imageedit_1_4174927774.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\dell1\Desktop\imagens\imageedit_1_4865624200.png" />
+                    <frame duration="1" hotspotX="0.493827" hotspotY="0.5125" original-source="C:\Users\dell1\Desktop\imagens\imageedit_1_5597865968.png" />
+                    <frame duration="1" hotspotX="0.493827" hotspotY="0.5875" original-source="C:\Users\dell1\Desktop\imagens\imageedit_1_6792250622.png" />
+                    <frame duration="1" hotspotX="0.494253" hotspotY="0.5" original-source="C:\Users\dell1\Desktop\imagens\imageedit_1_7425235088.png" />
+                    <frame duration="1" hotspotX="0.494382" hotspotY="0.5" original-source="C:\Users\dell1\Desktop\imagens\imageedit_1_7619700748.png" />
+                    <frame duration="1" hotspotX="0.591837" hotspotY="0.5" original-source="C:\Users\dell1\Desktop\imagens\imageedit_1_8560075130.png" />
+                    <frame duration="1" hotspotX="0.686047" hotspotY="0.611765" original-source="C:\Users\dell1\Desktop\imagens\imageedit_2_4336434438.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="592787541518237">
+            <plugin id="Touch" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="4">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
